@@ -13,9 +13,9 @@ const Approach = () => {
       </h1>
       <div className="my-20 flex flex-col lg:flex-row items-center justify-center gap-4">
         <Card
-          title="Planning & Strategy"
+          title="Idea -> Plan"
           icon={<AceternityIcon order="Phase-1" />}
-          description="We'll collaborate to map out your website's goals, target audience, and key functionalities. We'll discuss things like site structure, navigation, and content requirements."
+          description="I start by understanding problem and planning the structure of the application. This includes deciding features, UI flow and techstack. "
         >
           <CanvasRevealEffect
             animationSpeed={5.1}
@@ -23,9 +23,9 @@ const Approach = () => {
           />
         </Card>
         <Card
-          title="Development & Progress Update"
+          title="Development & Iteration"
           icon={<AceternityIcon order={"Phase-2"} />}
-          description="Once we agree on the plan, I cue my lofi playlist and dive into coding. From initial sketches to polished code, I keep you updated every step of the way."
+          description="I build the application step by step, focusing on clean code, performance, and usability while continuously testing and improving the features."
         >
           <CanvasRevealEffect
             animationSpeed={3}
@@ -38,9 +38,9 @@ const Approach = () => {
           />
         </Card>
         <Card
-          title="Development & Launch"
+          title="Testing"
           icon={<AceternityIcon order={"Phase-3"} />}
-          description="This is where the magic happens! Based on the approved design, I'll translate everything into functional code, building your website from the ground up."
+          description="After development, I test the application thoroughly for any bugs or flow in any feature to ensure smooth experience and performance."
         >
           <CanvasRevealEffect
             animationSpeed={3}

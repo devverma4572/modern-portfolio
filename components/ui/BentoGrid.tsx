@@ -66,7 +66,7 @@ export const BentoGridItem = ({
   };
 
   const handleCopy = () => {
-    const text = "holaaditya123@gmail.com";
+    const text = "kumardev4357@gmail.com";
     navigator.clipboard
       .writeText(text)
       .then(() => {
@@ -188,7 +188,7 @@ export const BentoGridItem = ({
                 otherClasses="!bg-[#161A31] !rounded-md !z-100"
               />
               <p className="text-base font-semibold mt-4">
-                holaaditya123@gmail.com
+                kumardev4357@gmail.com
               </p>
             </div>
           )}

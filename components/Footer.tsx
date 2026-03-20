@@ -24,7 +24,7 @@ const Footer = () => {
           achieve your goals.
         </p>
 
-        <a href="mailto:holaaditya123@gmail.com" target="_blank">
+        <a href="mailto:kumardev4357@gmail.com" target="_blank">
           <MagicButton
             title="Let's get in touch"
             icon={<FaLocationArrow />}
@@ -35,7 +35,7 @@ const Footer = () => {
 
       <div className="flex mt-16 md:flex-row flex-col justify-between items-center">
         <p className="md:text-base text-sm md:font-normal font-light">
-          Copyright &copy; 2024 Aditya
+          Copyright &copy; 2025 Dev
         </p>
 
         <div className="flex items-center md:gap-3 gap-6">

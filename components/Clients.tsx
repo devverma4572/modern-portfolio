@@ -7,7 +7,7 @@ const Clients = () => {
   return (
     <div className="py-20" id="testimonials">
       <h1 className="heading mb-24">
-        Experienced with <span className="text-purple"> Languages</span>
+        Experienced with <span className="text-purple"> Languages and Frameworks</span>
       </h1>
       {/*
       <div className="flex flex-col items-center max-lg:mt-10">

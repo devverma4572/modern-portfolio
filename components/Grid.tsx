@@ -1,6 +1,7 @@
 import React from "react";
 import { BentoGrid, BentoGridItem } from "./ui/BentoGrid";
 import { gridItems } from "@/data";
+import ResumeCard from "./ResumeCard";
 
 const Grid = () => {
   return (
@@ -30,6 +31,9 @@ const Grid = () => {
             />
           )
         )}
+        <div className="lg:col-span-2 md:col-span-3 md:row-span-2">
+          <ResumeCard />
+        </div>
       </BentoGrid>
     </section>
   );

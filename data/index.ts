@@ -8,7 +8,7 @@ export const navItems = [
 export const gridItems = [
   {
     id: 1,
-    title: "I prioritize client satisfaction, empowering open communication",
+    title: "I build clean, scalable web experience focused on performance, usability and real world impact",
     description: "",
     className: "lg:col-span-3 md:col-span-6 md:row-span-4 lg:min-h-[60vh]",
     imgClassName: "w-full h-full",
@@ -18,7 +18,7 @@ export const gridItems = [
   },
   {
     id: 2,
-    title: "I'm very flexible with time zone communications",
+    title: "Availabe for remote work and collaborative projects ",
     description: "",
     className: "lg:col-span-2 md:col-span-3 md:row-span-2",
     imgClassName: "",
@@ -38,7 +38,7 @@ export const gridItems = [
   },
   {
     id: 4,
-    title: "Technophile with a passion for development.",
+    title: "Curious mind exploring web and app technologies",
     description: "",
     className: "lg:col-span-2 md:col-span-3 md:row-span-1",
     imgClassName: "",
@@ -49,7 +49,7 @@ export const gridItems = [
 
   {
     id: 5,
-    title: "Currently building an AI-Powered Mood Tracking App",
+    title: "Currently building a mini-mobile game using Flutter",
     description: "The Inside Scoop",
     className: "md:col-span-3 md:row-span-2",
     imgClassName: "absolute right-0 bottom-0 md:w-96 w-60",
@@ -72,40 +72,38 @@ export const gridItems = [
 export const projects = [
   {
     id: 1,
-    title: "Shirtly 3D 👕",
-    des: "🌟A 3D website that can be used to generate colors to a T-Shirt and users can apply different textures and logos by uploading their own files.",
-    img: "/shirtly.png",
-    iconLists: ["/re.svg", "/tail.svg", "/vite.svg", "/three.svg", "/fm.svg"],
-    link: "https://shirtly-3d.vercel.app/",
+    title: "Queue Management System",
+    des: "A system that manages customer queues efficiently using data structures, improving service flow and reducing waiting time.",
+    img: "qms.png",
+    iconLists: ["/re.svg", "/tail.svg", "/vite.svg", "/three.svg", "/postgre.svg"],
+    link: "https://github.com/aditya-2k23/sqms",
   },
   {
     id: 2,
-    title: "Yoom - Video Conferencing App",
-    des: "Simplify your video conferencing experience with Yoom. Seamlessly connect with colleagues and friends.",
-    img: "/p2.svg",
-    iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/stream.svg", "/c.svg"],
-    link: "https://zoom-clone-aditya-2k23s-projects.vercel.app/",
+    title: "Dhansplit (Expense & Split Manager",
+    des: "A smart expense management web app that allows users to track spending and split expenses seamlessly with friends, roommates, or travel groups.",
+    img: "dhansplit.png",
+    iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/firebase.svg"],
+    link: "https://dhansplitv1.vercel.app/",
   },
   {
     id: 3,
-    title: "Brainwave - AI Generator",
-    des: "Unleash the power of AI within Brainwave. Upgrade your productivity with Brainwave, the open AI chat app.",
-    img: "/brainwave.png",
+    title: "Flappy Bird Game (Flutter + Flame)",
+    des: "A 2D game built using Flutter and Flame engine, replicating the classic Flappy Bird with smooth gameplay and interactive mechanics.",
+    img: "/flappy Bird.png",
     iconLists: [
-      "/re.svg",
-      "/tail.svg",
-      "/vite.svg",
-      "/react-just-parallax.png",
+      "/flutter-icon.svg",
+      "/dart.svg",
     ],
-    link: "https://brainwave-five-gold.vercel.app/",
+    link: "https://github.com/devverma4572/Flappy-Bird-Game",
   },
   {
     id: 4,
-    title: "Animated Apple Iphone 3D Website",
-    des: "Recreated the Apple iPhone 15 Pro website, combining GSAP animations and Three.js 3D effects..",
-    img: "/p4.svg",
-    iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
-    link: "https://apple-iphone-15-sigma.vercel.app/",
+    title: "Ed-Tech Platform (Error-119)",
+    des: "A web platform designed to guide students with curated learning paths, resources, and insights to enhance their educational growth.",
+    img: "error119.png",
+    iconLists: ["/re.svg", "/tail.svg"],
+    link: "https://github.com/SaurabhM-24/error-119_web",
   },
 ];
 
@@ -146,7 +144,7 @@ export const languages = [
   {
     id: 1,
     name: "Python",
-    img: "/python-logo-only.png",
+    img: "/c++ logo.png",
     nameImg: "/python-logo-name.png",
   },
   {
@@ -163,9 +161,9 @@ export const languages = [
   },
   {
     id: 4,
-    name: "NextJS",
-    img: "/next-js.png",
-    nameImg: "/nextjs-name.png",
+    name: "Flutter",
+    img: "/flutter logo.png",
+    nameImg: "flutter text.png",
   },
   {
     id: 5,
@@ -178,29 +176,29 @@ export const languages = [
 export const workExperience = [
   {
     id: 1,
-    title: "Coding",
-    desc: "I'm passionate about coding because it lets me create and solve problems in innovative ways.",
+    title: "Web Development",
+    desc: "Building responsive and scalable web applications using modern technologies with focus on performance and user experience",
     className: "md:col-span-2",
     thumbnail: "/exp1.svg",
   },
   {
     id: 2,
-    title: "Movies",
-    desc: "I'm captivated by movies because they transport me to different realities and tell powerful stories.",
+    title: "Filmaking & Editing",
+    desc: "I enjoy creating cinematic content and editing videos, blending storytelling with visuals.",
     className: "md:col-span-2",
     thumbnail: "/exp2.png",
   },
   {
     id: 3,
-    title: "Music",
-    desc: "I'm deeply into music because it moves my soul and lets me express my emotions creatively.",
+    title: "Game Development",
+    desc: "Exploring game development using tools and engines, creating interactive experience that combines logic, design and creativity.",
     className: "md:col-span-2",
     thumbnail: "/exp3.png",
   },
   {
     id: 4,
-    title: "Gaming",
-    desc: "I love gaming because it immerses me in exciting worlds and challenges my skills.",
+    title: "Data Structures & Algorithm",
+    desc: "Practicing DSA to strengthen problem solving skills, optimize code and build efficient, solutions.",
     className: "md:col-span-2",
     thumbnail: "/exp4.svg",
   },
@@ -214,13 +212,13 @@ export const socialMedia = [
   },
   {
     id: 2,
-    img: "/twit.svg",
-    url: "https://twitter.com/Tema_roon",
+    img: "/instagram.svg",
+    url: "https://www.instagram.com/kumardevvv/",
   },
   {
     id: 3,
     img: "/link.svg",
-    url: "https://linkedin.com/in/aditya-2k23/",
+    url: "https://www.linkedin.com/home?originalSubdomain=in",
   },
   {
     id: 4,
